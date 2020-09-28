@@ -31,6 +31,7 @@ const Search = ({ title }: SearchProps) => {
       <form onSubmit={submitHandler}>
         <input
           type='text'
+          name='city'
           placeholder='Enter city name'
           value={city}
           onChange={changeHandler}
